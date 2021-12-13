@@ -37,7 +37,7 @@ class MarketData:
         candlesDataFrame.pop(11)
         self.historicalData = candlesDataFrame.join(closingTimeDataFrame)
         self.historicalData.set_index("date", inplace=True)
-        self.historicalData.columns = [
+        self.columnNames = [
             "open",
             "high",
             "low",
@@ -49,6 +49,7 @@ class MarketData:
             "taker_buy_base",
             "taker_buy_quote",
         ]
+        self.historicalData.columns = self.columnNames
 
     def getClosingTimeFromCandles(self, candlesDataFrame):
         closingTimeStamps = []
@@ -82,17 +83,6 @@ class MarketData:
         backtestData.pop(11)
         backtestFormatData = backtestData.join(backtestClosingTimes)
         backtestFormatData.set_index("date", inplace=True)
-        backtestFormatData.columns = [
-            "open",
-            "high",
-            "low",
-            "close",
-            "volume",
-            "close_time",
-            "asset_volume",
-            "trade_number",
-            "taker_buy_base",
-            "taker_buy_quote",
-        ]
+        backtestFormatData.columns = self.columnNames
 
         return backtestFormatData
