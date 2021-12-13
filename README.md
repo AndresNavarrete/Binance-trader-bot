@@ -1,6 +1,6 @@
 # Binance trader bot
 ### Purpose of this project
-This public project is an implementation of a trading bot on Binance using a websocket connection and a simple trading strategy based on the momenton of a given currency. This code was written using the following  [Binance documentation]. 
+This public project is an implementation of a trading bot on Binance using a websocket connection and a simple trading strategy based on the [RSI Momentum] of a given currency. This code was written using the following  [Binance documentation].
 
 
 ### Requirements and use
@@ -16,3 +16,4 @@ The file `Credentials` has the api and secret key for your Binance account. If y
 
    [Binance documentation]: <https://python-binance.readthedocs.io/en/latest/>
    [How to get my keys]:  <https://www.binance.com/en/support/faq/360002502072>
+   [RSI Momentum]: <https://www.thebalance.com/trading-commodities-with-rsi-and-momentum-indicators-809349>
