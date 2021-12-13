@@ -1,5 +1,5 @@
-apiKey = ''
-secretKey = ''
+apiKey = ""
+secretKey = ""
 
-test_apiKey = ''
-test_secretKey = ''
+test_apiKey = ""
+test_secretKey = ""
