@@ -13,6 +13,12 @@ The selection of the coin pair to trade and the time interval to use can be done
 
 The file `Credentials` has the api and secret key for your Binance account. If you need help with your keys, please read [How to get my keys].
 
+To start the trading bot you just need to execute the following line:
+
+```sh
+python run.py
+```
+
 
    [Binance documentation]: <https://python-binance.readthedocs.io/en/latest/>
    [How to get my keys]:  <https://www.binance.com/en/support/faq/360002502072>
