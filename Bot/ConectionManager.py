@@ -1,7 +1,7 @@
 from binance.client import Client
-from MarketData import MarketData
+from Market.MarketData import MarketData
 from InputInformation import InputInformation
-from MarketIndicators import MarketIndicators
+from Market.MarketIndicators import MarketIndicators
 from binance.exceptions import BinanceAPIException, BinanceOrderException
 import sys
 import json

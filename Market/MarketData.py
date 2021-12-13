@@ -1,4 +1,4 @@
-from Credentials import *
+from Bot.Credentials import *
 from InputInformation import InputInformation
 
 from binance.client import Client
