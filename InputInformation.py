@@ -6,6 +6,6 @@ class InputInformation:
         self.strategy = Momentum_RSI()
         self.firstCoin = "eth"
         self.secondCoin = "usdt"
-        self.timeInterval = "1m"
+        self.timeInterval = "15m"
         self.isSimulation = False
         self.coinSymbol = self.firstCoin + self.secondCoin
